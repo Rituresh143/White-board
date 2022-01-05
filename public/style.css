@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* canvas */
+
+.whiteboard {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+}
+
+.colors {
+    position: fixed;
+    padding: 10px;
+    background-color: rgb(245, 243, 240);
+}
+
+.color {
+   display: inline-block;
+   height: 48px;
+   width: 48px; 
+  display: grid; 
+  margin: 10px;
+ 
+}
+
+header{
+ color: black;
+ width: 100%;
+ font-size: 30px;
+ padding: 10px;
+ border-radius: 10px;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ background-color: rgb(255, 247, 247);
+
+}
+.color.black{background-color: black;border-radius: 50%;}
+.color.red{background-color: red;border-radius: 50%;}
+.color.green{background-color: green;border-radius: 50%;}
+.color.yellow{background-color: yellow;border-radius: 50%;}
